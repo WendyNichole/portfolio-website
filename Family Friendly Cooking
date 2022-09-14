@@ -1,0 +1,36 @@
+<!<!DOCTYPE html>
+  <html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="author" content="Wendy Decker">
+    <meta name="description" content="Wendy Decker UI Portfolio">
+    <script src="https://kit.fontawesome.com/ba29914a3b.js" crossorigin="anonymous"></script>
+    <title>Family Friendly </title>
+  </head>
+
+  <body>
+    <!--For the Header -->
+    <header>
+      <!--For the Navigation -->
+      <div>
+        <picture>
+          <img src="img/TealWD 1.png" alt="Wendy Decker">
+        </picture>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+
+    <div>
+      <div>
+        <h1>Family Friendly Cooking.</h1>
+        </div>
+    </div>
