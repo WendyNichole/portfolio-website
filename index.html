@@ -5,18 +5,21 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <meta name="author" content="Wendy Decker">
     <meta name="description" content="Wendy Decker UI Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/ba29914a3b.js" crossorigin="anonymous"></script>
     <title>Tale and Architechture</title>
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
   </head>
 
   <body>
+
     <!--For the Header -->
     <header>
       <!--For the Navigation -->
       <div>
-        <picture>
-          <img src="img/TealWD 1.png" alt="Wendy Decker">
-        </picture>
+        <a href="index.html"><img id="logo" src="img/generalmobile/tealwd.png" alt="Wendy Decker"> </a>
 
         <nav>
           <ul>
@@ -30,7 +33,7 @@
     <main>
 
       <!--For the Hero section -->
-      <div>
+      <div id="hero">
         <div>
           <h1>Hello! I am Wendy.</h1>
           <span>I am a UI designer from New York City!</span>
@@ -39,52 +42,55 @@
       </div>
 
       <!--For Projects -->
-      <div>
-        <div><h2>My Work</h2></div>
+      <div id="projects">
+        <div>
+          <h2>My Work</h2>
+        </div>
       </div>
       <picture>
-        <source srcset="img/ffc/ffcmobile/ffcmain1.png" media= (max-width:767px)>
+        <source srcset="img/ffc/ffcmobile/ffcmain1.png" media=(max-width:767px)>
         <img src="img/ffc/ffcdesktop/ffcmain.png" alt="Famlily Friendly Cooking">
       </picture>
       <h1>Family Friendly Cooking
+        <a href="family.html" class="button">View Project</a>
         <picture>
           <a href="family.html">
-            <img src="img/ffc/ffcdesktop/ffcvp.png" alt="View Project">
           </a>
-
-          </picture>
+        </picture>
       </h1>
-      <h2>Family Friendly Cooking is a cooking that can be used by the whole family or those looking to cook for the first time.</h2>
+      <h3>Family Friendly Cooking is a cooking that can be used by the whole family or those looking to cook for the first time.</h3>
       <picture>
-        <source srcset="img/betterme/bettermemobile/bmmain.png" media= (max-width:767px)>
+        <source srcset="img/betterme/bettermemobile/bmmain.png" media=(max-width:767px)>
         <img src="img/betterme/bettermedesktop/bmmain1.png" alt="BetterMe">
         <h1>BetterMe
           <picture>
-            <a href="BetterMe.html">
-            <img src="img/ffc/ffcdesktop/ffcvp.png" alt="View Project"></a>
+            <a href="BetterMe.html" class="button">View Project</a>
           </picture>
 
         </h1>
-        <h2>An organizational app for those who want to keep their study plans and to-dolists in one place and manage them on the go.</h2>
+        <h3>An organizational app for those who want to keep their study plans and to-dolists in one place and manage them on the go.</h3>
     </main>
 
     <!--For the Footer -->
     <footer>
-      <div></div>
-      <h3>Get in Touch</h3>
-      <p>Do you like my work and want to discuss opportunities? Please do not hesitate to get in touch. Call: <a href="tel:+18131234567">+1 8131234567</a>. Prefer sending an email?
-      <a href="mailto:myemail@gmail.com">Email me</a>
 
-      <div>
-        <ul>
-          <!--Social Medial Layout and Placeholders-->
-          <li><a href="https://www.linkedin.com/in/wendy-decker-23208a10a/" target="_blank">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a></li>
-          <li><a href="https://www.behance.net/wendyndecker" target="_blank">
-              <i class="fa-brands fa-behance"></i>
-            </a></li>
-        </ul>
+      <!--For the Contact section -->
+      <div id="contact">
+        <h4>Get in Touch</h4>
+        <p>Do you like my work and want to discuss opportunities? Please do not hesitate to get in touch. Call: <a href="tel:+18131234567">+1 8131234567</a>. Prefer sending an email?
+          <a href="mailto:myemail@email.com" class="button contact">Email Me</a>
+
+        <div>
+          <ul>
+            <!--Social Medial Layout and Placeholders-->
+            <li><a href="https://www.linkedin.com/in/wendy-decker-23208a10a/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a></li>
+            <li><a href="https://www.behance.net/wendyndecker" target="_blank">
+                <i class="fa-brands fa-behance"></i>
+              </a></li>
+          </ul>
+        </div>
       </div>
       <p>Copyright Wendy Decker 2022</p>
 

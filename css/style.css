@@ -1,0 +1,130 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 16px; /*sets the font size to 16px */
+  font-weight: 300; /*sets the font weight to 300 */
+  line-heigh: 1.6; /*sets the line height to 1.6 * the font size */
+  color: #000000;
+}
+
+h1, h2, h3, h4 {
+    liine-height: 1.4;
+}
+
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+/* custom logo sizing */
+#logo {
+  width: 150px;
+  hight: auto;
+}
+
+#hero {}
+
+#projects {}
+
+#contact {}
+
+#aboutme {}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #1e8c92;
+  text-decoration: none; /* No underlining */
+}
+
+a:hover {
+  color: #2ed8e2;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+
+a:visited { /* visited link */
+  /* color: #1e8c92; */
+}
+a:active { /* selected link */
+  color: #1e8c92;
+}
+a:hover,
+a:focus {
+  color: #2ed8e2;
+  text-decoration: underline;
+}
+
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #1e8c92;
+  color: #ffffff; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 6px;
+  border-bottom: 2px solid #1E8C93; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #1E8C93;
+  text-transform: uppercase;
+  border: 2px solid #1E8C93;
+}
+
+.button.contact:hover {
+  background-color: #2ed8e2;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Colors used:Primary color (White):#ffffff
+              Secondary colors (black):#000000
+                               (Teal):#1e8c92
+                              (Teal1):#27b4bd
+                              (Teal2):#2ed8e2
+*/
