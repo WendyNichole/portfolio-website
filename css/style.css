@@ -83,7 +83,7 @@ a:focus {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #1e8c92;
   color: #ffffff; /* needed to override the default link color */
-  font-weight: 400;
+  font-weight: 100;
   padding: 10px;
   border-radius: 6px;
   border-bottom: 2px solid #1E8C93; /* width of the border, type, color */
@@ -117,7 +117,7 @@ a:focus {
 }
 
 header {
-  background-color: #E7E7E7;
+  background-color: #F0F0F0;
   text-align: center;
   padding: 10px 0;
   box-shadow: inset -2px -3px 3px 0 rgba(50, 50, 50, 0.75);
