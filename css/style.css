@@ -175,12 +175,23 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+.col-md-4 {
+    width: 33.33%;
+  }
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
+.col-md-2 {
+    width: 16.66%;
+  }
 }
 
 #hero span {
@@ -189,6 +200,7 @@ X-large devices (1440px or larger)
 
 [class*="col-"] {
   float: left;
+  padding: 10px;
 }
 
 .row::after {
