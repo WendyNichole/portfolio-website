@@ -164,8 +164,7 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
-}
-
+  }
   Nav {
     width: auto;
     float: right;
@@ -212,34 +211,3 @@ X-large devices (1440px or larger)
   clear: both;
   display: table;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Colors used:Primary color (White):#ffffff
-              Secondary colors (black):#000000
-                               (Teal):#1e8c92
-                              (Teal1):#27b4bd
-                              (Teal2):#2ed8e2
-*/
