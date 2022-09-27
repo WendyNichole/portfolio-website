@@ -84,12 +84,12 @@ a:focus {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #1e8c92;
   color: #ffffff; /* needed to override the default link color */
-  font-weight: 100;
+  font-weight: 400;
   padding: 10px;
-  border-radius: 6px;
+  border-radius: 3px;
   border-bottom: 2px solid #1E8C93; /* width of the border, type, color */
   transition: 0.2s opacity;
-}
+ }
 
 .button:hover {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
@@ -115,6 +115,10 @@ a:focus {
 
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+.nudge {
+    padding-left: 100px;
 }
 
 header {
