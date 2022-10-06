@@ -6,6 +6,7 @@
     <meta content="Wendy Decker UI Portfolio" name="description">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <script crossorigin="anonymous" src="https://kit.fontawesome.com/ba29914a3b.js"></script>
+
     <title>Tale and Architecture</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -15,28 +16,36 @@
 <header>
     <!--For the Navigation -->
     <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
         <a href="index.html"><img alt="Wendy Decker" id="logo" src="img/generalmobile/union.svg"> </a>
         <nav>
-            <ul>
-                <li><a href="index.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+          <ul>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="icon" href="javascript:void(0);" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
         </nav>
+      </div>
     </div>
 </header>
 <main>
     <!--For the Hero section -->
-    <div id="hero">
-        <div class="container">
-            <h1>Hi! I am Wendy Decker.</h1>
-            <span>I am a UX Researcher and UI Designer with a curious mind from New York City!I have a creative sense and feeling that allows me  to design beautiful, yet easy-to-use products. I have a variety of design projects to create a portfolio that showcases my work and creative achievements.</span>
-            <p>As a kid I loved beauty, art, and colors. As I grew up, I discovered that I love meeting new people and understanding how they solve problems. I get excited to turn great
-               into tangible products. I am passionate about improving the lives of others through design and
-               constantly looking to learn new things every day. I want to create interactions that make technology
-               feel effortless.</p>
-        </div>
-    </div>
+  <div id="hero">
+    <div class="container">
+      <h1>Hi! I am Wendy Decker.</h1>
+      <span>I am a UX Researcher and UI Designer with a curious mind from New York City! I have a creative sense and feeling that allows me  to design beautiful, yet easy-to-use products. I have a variety of design projects to create a portfolio that showcases my work and creative achievements.</span>
+      <p>As a kid I loved beauty, art, and colors. As I grew up, I discovered that I love meeting new people and
+         understanding how they solve problems. I get excited to turn great
+         into tangible products. I am passionate about improving the lives of others through design and
+         constantly looking to learn new things every day. I want to create interactions that make technology
+         feel effortless.</p>
+    <ul>
+      <li><a href="#Two">Scroll to BetterMe</a></li>
+      <li><a href="#three">Scroll to CSS Animation</a></li>
+    </ul>
+  </div>
+  </div>
     <!--For Projects -->
     <div id="projects">
         <div class="container">
@@ -49,13 +58,13 @@
                     </picture>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-lg-5">
-                        <h2>Family Friendly Cooking</h2>
-                        <h3>Family Friendly Cooking is a cooking that can be used by the whole family or those looking
-                            to cook
-                            for the first time.</h3>
-                        <a class="button" href="family.html">View Project</a><!-- heading for the project -->
-                    </div><!-- end second column -->
+                  <div class="col-md-6 col-lg-5">
+                    <h2>Family Friendly Cooking</h2>
+                    <h3>Family Friendly Cooking is a cooking that can be used by the whole family or those looking
+                        to cook
+                        for the first time.</h3>
+                    <a class="button" href="family.html" id="Two">View Project</a><!-- heading for the project -->
+                  </div><!-- end second column -->
                 </div><!-- end row that holds (2) columns for project -->
                 <div class="row">
 	                <div class="col-md-6 col-lg-7">
@@ -66,7 +75,8 @@
 	                </div><!-- end first column -->
                   <div class="row">
                     <div class="col-md-6 col-lg-5">
-                      <h2>BetterMe</h2><!-- heading for the project -->
+                      <p><a href="#top">Top</a></p>
+                      <h2>BetterMe</h2>
                       <h3>An organizational app for those who want to keep their study plans and to-do lists in
                           one place and
                           manage them on the go.</h3>
@@ -264,7 +274,8 @@
                 </div>
                 <div class="row">
                   <div class="col-md-6 col-lg-5">
-                    <h2>CSS Animation</h2>
+                    <p><a href="#top">Top</a></p>
+                    <h2 id="three">CSS Animation</h2>
                     <h3>This is an example of an SVG image which is animated using keyframes.</h3>
                   </div><!-- end second column -->
                 </div><!-- end row that holds (2) columns for project -->
@@ -297,6 +308,7 @@
         <p>Copyright Wendy Decker 2022</p>
     </div>
 </footer>
+<script src="js/jquery-3.6.1.min.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>
