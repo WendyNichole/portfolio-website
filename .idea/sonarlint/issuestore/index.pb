@@ -1,21 +1,3 @@
 
 F
 js/jquery-3.6.1.min.js,8/1/81e423218826534b3d9723653a1cec48efeffe1f
-:
-
-about.html,8/1/8143af03f594989ae71e2d1be57beadf78357d4c
-<
-contact.html,1/4/143617604351c3b10191461458ec5e120a28597c
-;
-family.html,0/5/0592bc7d49e90c8f03774ace44161a8262ef517c
-=
-betterme.html,e/c/ec5c4cc6912ae80a05fb4f5a9b7c79a061b72c82
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-=
-js/scripts.js,f/7/f72170cbc181b126d54f0901f21e6043dccd300f
-=
-css/style.css,1/2/126b0f8c1ec95fb3a2541745bfc21365b438d668
-:
-
-index.html,f/6/f6013a00b362253c64368d6eebc50ea2131754e2
