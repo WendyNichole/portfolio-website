@@ -1,7 +1,7 @@
 console.log("Welcome to my Creative Side")
 
 function menuToggle() {
-  var x = document.getElementById('myNavtoggle');
+  let x = document.getElementById('myNavtoggle');
   if (x.className === 'navtoggle') {
     x.className += ' responsive';
   } else {
@@ -21,7 +21,7 @@ $('a[href*="#"]')
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
-      var target = $(this.hash);
+      let target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       // Does a scroll target exist?
       if (target.length) {
@@ -32,14 +32,14 @@ $('a[href*="#"]')
         }, 1000, function() {
           // Callback after animation
           // Must change focus!
-          var $target = $(target);
+          let $target = $(target);
           $target.focus();
           if ($target.is(":focus")) { // Checking if the target was focused
             return false;
           } else {
             $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
             $target.focus(); // Set focus again
-          };
+          }
         });
       }
     }
