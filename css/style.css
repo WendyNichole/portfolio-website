@@ -16,6 +16,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
+  font-family: 'Martel', sans-serif;
   font-size: 2.75em;
   font-weight: 700;
 }
