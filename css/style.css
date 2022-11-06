@@ -338,3 +338,8 @@ X-large devices (1440px or larger)
 	overflow: hidden;
 	z-index: -1;
 }
+
+.footerline {
+  border-style: solid none none none;
+  border-color: #1E8C93;
+}
